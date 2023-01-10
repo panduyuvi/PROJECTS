@@ -1,0 +1,83 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+    max-width: 1200px;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+.list{
+    margin-left:5%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: calibri light;
+    /*font-weight: 500;*/
+    gap: 20px;
+}
+.list>li:first-child{
+    font-weight: 700;
+}
+.button-group>.nav-button{
+       background-color:#202352;
+       padding:10px;
+       border:none;
+       text-align: inline;
+       color: white;
+       border-radius: 10px;
+       margin-left:  250px;;
+       margin-top: 5%;
+       font-family: calibri light;
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+}
+div h1{
+    font-size: 55px;
+    color: #1d205f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p{
+    margin-top:2%;
+    margin-left: 10px 25%;
+    font-size:15px;
+    border: 10px;
+    font-family: calibri light;
+    inline-size: 300px;
+
+    
+}
+div span{
+    color:blue;
+}
+
+.banner-container div button{
+    margin-top: 10%;
+    padding: 20px 10%;
+    border: none;
+    background-color:#202352;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    font-family: calibri light;
+}
+.banner-container div img{
+    max-height:800px;
+    max-width:850px;
+    width:700px;
+    height:500px;
+}
